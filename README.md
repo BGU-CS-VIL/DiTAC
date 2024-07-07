@@ -2,7 +2,7 @@
 
 *** Code will be uploaded soon ***
 
-Implementation for our paper, submitted to ECCV 2024.
+Implementation for our paper, ECCV 2024.
 
 **Authors:** Irit Chelly*, Shahaf E. Finder*, Shira Ifergane, and Oren Freifeld.
 
