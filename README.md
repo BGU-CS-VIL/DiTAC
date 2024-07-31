@@ -44,12 +44,34 @@ This project is released under the MIT license. Please see the [LICENSE](LICENSE
 
 
 ## Citation
-If you find this repository helpful, please consider citing:
+If you find this repository helpful, please consider citing our paper:
 ```
 @inproceedings{chelly2024ditac,
   title     = {Trainable Highly-expressive Activation Functions},
   author    = {Chelly, Irit and Finder, Shahaf E and Ifergane, Shira and Freifeld, Oren},
   booktitle = {European Conference on Computer Vision},
   year      = {2024},
+}
+```
+Please also consider citing previous works:
+```
+@inproceedings{martinez2022closed,
+  title={Closed-form diffeomorphic transformations for time series alignment},
+  author={Martinez, I{\~n}igo and Viles, Elisabeth and Olaizola, Igor G},
+  booktitle={International Conference on Machine Learning},
+  pages={15122--15158},
+  year={2022},
+  organization={PMLR}
+}
+
+@article{freifeld2017transformations,
+  title={Transformations based on continuous piecewise-affine velocity fields},
+  author={Freifeld, Oren and Hauberg, S{\o}ren and Batmanghelich, Kayhan and Fisher, Jonn W},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={39},
+  number={12},
+  pages={2496--2509},
+  year={2017},
+  publisher={IEEE}
 }
 ```
