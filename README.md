@@ -1,24 +1,55 @@
-# DiTAC
+# Trainable Highly-expressive Activation Functions [ECCV 2024]
 
-*** Code will be uploaded soon ***
+[Irit Chelly*](https://irita42.wixsite.com/mysite), [Shahaf E. Finder*](https://shahaffind.github.io/), [Shira Ifergane](https://www.linkedin.com/in/shira-ifergane/), and [Oren Freifeld](https://www.cs.bgu.ac.il/~orenfr/).
 
-Implementation for our paper, ECCV 2024.
+[![arXiv](https://img.shields.io/badge/arXiv-2407.07564-b31b1b.svg?style=flat)](https://arxiv.org/abs/2407.07564)
 
-**Authors:** Irit Chelly*, Shahaf E. Finder*, Shira Ifergane, and Oren Freifeld.
+### Requirements
+- python 3.12
+- torch 2.2.2 
+- difw 0.0.29
+- scikit-learn 1.5.1
 
-A detailed description of our method and more example results can be found here:<br />
-[Paper](?), [Appendix](?)<br />
+`difw` can be fragile, make sure that it compiles successfully. We've successfully compiled it with cuda version 12.2. 
 
-
-## Requirements
-
-## Installation
-
-## Instructions and Description
-
-## Copyright and License
-
-This software is released under the MIT License (included with the software). Note, however, that if you are using this code (and/or the results of running it) to support any form of publication (e.g., a book, a journal paper, a conference paper, a patent application, etc.) please cite our paper:  
+Note that you might have to update c++ compiler and/or paths, e.g.:
+```sh
+conda install cxx-compiler -c conda-forge
+export CPATH=/usr/local/cuda-12/targets/x86_64-linux/include:$CPATH
+export LD_LIBRARY_PATH=/usr/local/cuda-12/targets/x86_64-linux/lib:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda-12/bin:$PATH
 ```
-...
+
+### How to use
+You can import the activation layer and use it within your network.
+```python
+import torch
+from ditac import DiTAC
+
+act = DiTAC()
+x = torch.randn(8,32,20,20).to('cuda')
+
+act(x)
+```
+
+You can recreate Fig. 1 using the sample code:
+```sh
+python run_regression.py
+```
+
+**Other experiments' code will be uploaded soon**
+
+## License
+This project is released under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
+
+
+## Citation
+If you find this repository helpful, please consider citing:
+```
+@inproceedings{chelly2024ditac,
+  title     = {Trainable Highly-expressive Activation Functions},
+  author    = {Chelly, Irit and Finder, Shahaf E and Ifergane, Shira and Freifeld, Oren},
+  booktitle = {European Conference on Computer Vision},
+  year      = {2024},
+}
 ```
