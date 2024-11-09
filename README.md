@@ -46,7 +46,7 @@ This project is released under the MIT license. Please see the [LICENSE](LICENSE
 ## Citation
 If you find this repository helpful, please consider citing our paper:
 ```
-@inproceedings{chelly2024ditac,
+@inproceedings{Chelly:ECCV:2024DiTAC,
   title     = {Trainable Highly-expressive Activation Functions},
   author    = {Chelly, Irit and Finder, Shahaf E and Ifergane, Shira and Freifeld, Oren},
   booktitle = {European Conference on Computer Vision},
