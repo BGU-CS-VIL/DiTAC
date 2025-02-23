@@ -4,6 +4,9 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2407.07564-b31b1b.svg?style=flat)](https://arxiv.org/abs/2407.07564)
 
+Pytorch implementation of DiTAC.
+
+
 ### Requirements
 - python 3.12
 - torch 2.2.2 
