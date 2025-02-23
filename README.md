@@ -6,7 +6,7 @@
 
 <br>
 <p align="center">
-<img src="https://github.com/BGU-CS-VIL/DiTAC/blob/main/.github/ditac_fig.png" alt="DiTAC typical results" width="900" height="300">
+<img src="https://github.com/BGU-CS-VIL/DiTAC/blob/main/.github/ditac_fig.png" alt="DiTAC typical results" width="900" height="280">
 </p>
 
 Pytorch implementation of DiTAC.
