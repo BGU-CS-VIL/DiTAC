@@ -6,6 +6,10 @@
 
 Pytorch implementation of DiTAC.
 
+<br>
+<p align="center">
+<img src="https://github.com/BGU-CS-VIL/DiTAC/blob/main/.github/ditac_fig.png" alt="DiTAC typical results" width="520" height="320">
+</p>
 
 ### Requirements
 - python 3.12
