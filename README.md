@@ -9,7 +9,7 @@
 <img src="https://github.com/BGU-CS-VIL/DiTAC/blob/main/.github/ditac_fig.png" alt="DiTAC typical results" width="900" height="280">
 </p>
 
-### Coming soon: a significant speedup
+###              -------------------  Coming soon: a significant speedup  -------------------
 
 Pytorch implementation of DiTAC.
 ### Requirements
